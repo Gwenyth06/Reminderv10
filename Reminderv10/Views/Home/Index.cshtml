@@ -1,0 +1,15 @@
+﻿
+@model Medicine
+
+@{
+    ViewData["Title"] = "Authentication";
+}
+
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (ViewBag.Message != null)
+{
+    <div class="p-1 mb-2 bg-success text-white">@ViewBag.Message</div>
+}
+<script src="~/Scripts/JavaScript.js" asp-append-version="true"></script>

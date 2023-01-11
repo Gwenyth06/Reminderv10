@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Medicine>
+
+<h1>List of Medicines</h1>
+
+@foreach (var sub in Model)
+{
+    <div>
+            <div class="Medicines">
+                
+                <div>
+                    Medicine Name: @sub.MedicineName
+                </div>
+                <div>
+                    Medicine Dose: @sub.MedicineDose
+                </div>
+                <div>
+                    Time: @sub.Time
+                </div>
+                <div>
+                    Days: 
+            @for(var i = 0; i < sub.Days.Length; i++)
+            { string[] days = { "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
+                
+                    <li>@days[sub.Days[i]]</li>
+                
+            }
+        </div>
+    </div>
+                @if (User.Identity.IsAuthenticated && User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.NameIdentifier).Value == @sub.Id)
+                {
+                                <a asp-action="Edit" asp-route-id="@sub.Id">edit</a>
+                                <a asp-action="Delete" asp-route-id="@sub.Id">delete</a>
+                }
+            </div>   
+}
+<hr/>
+<a class="create" asp-action="Create">Create a New Medicine Reminder</a>

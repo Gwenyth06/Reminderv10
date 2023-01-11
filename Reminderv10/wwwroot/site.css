@@ -1,0 +1,233 @@
+﻿
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
+
+:root {
+	/* dark shades of primary color*/
+	--clr-primary-1: hsl(205, 86%, 17%);
+	--clr-primary-2: hsl(205, 77%, 27%);
+	--clr-primary-3: hsl(205, 72%, 37%);
+	--clr-primary-4: hsl(205, 63%, 48%);
+	/* primary/main color */
+	--clr-primary-5: hsl(205, 78%, 60%);
+	/* lighter shades of primary color */
+	--clr-primary-6: hsl(205, 89%, 70%);
+	--clr-primary-7: hsl(205, 90%, 76%);
+	--clr-primary-8: hsl(205, 86%, 81%);
+	--clr-primary-9: hsl(205, 90%, 88%);
+	--clr-primary-10: hsl(205, 100%, 96%);
+	/* darkest grey - used for headings */
+	--clr-grey-1: hsl(209, 61%, 16%);
+	--clr-grey-2: hsl(211, 39%, 23%);
+	--clr-grey-3: hsl(209, 34%, 30%);
+	--clr-grey-4: hsl(209, 28%, 39%);
+	/* grey used for paragraphs */
+	--clr-grey-5: hsl(210, 22%, 49%);
+	--clr-grey-6: hsl(209, 23%, 60%);
+	--clr-grey-7: hsl(211, 27%, 70%);
+	--clr-grey-8: hsl(210, 31%, 80%);
+	--clr-grey-9: hsl(212, 33%, 89%);
+	--clr-grey-10: hsl(210, 36%, 96%);
+	--clr-white: #fff;
+	--clr-red-dark: hsl(360, 67%, 44%);
+	--clr-red-light: hsl(360, 71%, 66%);
+	--clr-green-dark: hsl(125, 67%, 44%);
+	--clr-green-light: hsl(150, 54%, 65%);
+	--clr-black: #222;
+	--ff-primary: "Roboto", sans-serif;
+	--ff-secondary: "Open Sans", sans-serif;
+	--transition: all 0.3s linear;
+	--spacing: 0.1rem;
+	--radius: 0.25rem;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	--max-width: 1170px;
+	--fixed-width: 620px;
+}
+
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
+
+h1, h3 {
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	background: transparent;
+	color: var(--clr-green-light);
+	letter-spacing: var(--spacing);
+	font-weight: 700;
+}
+p {
+	font-family: "Work Sans", sans-serif;
+	background: transparent;
+	color: var(--clr-black);
+	letter-spacing: var(--spacing);
+	font-weight: 700;
+}
+.textArea {
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	background: transparent;
+	color: var(--clr-black);
+	letter-spacing: var(--spacing);
+	font-weight: 700;
+	transition: var(--transition);
+	border: 2px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 25rem;
+	font-size: 1rem;
+	padding: 0.75rem 1.25rem;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.editFormOpened {
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	background: transparent;
+	color: var(--clr-black);
+	border: 1px solid;
+	letter-spacing: var(--spacing);
+	font-weight: 700;
+	transition: var(--transition);
+	border: 2px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 1rem;
+	font-size: 1rem;
+	padding: 0.75rem 1.25rem;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+table {
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	background: transparent;
+	color: var(--clr-black);
+	border: 1px solid;
+	letter-spacing: var(--spacing);
+	font-weight: 700;
+	transition: var(--transition);
+	border: 2px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 1rem;
+	font-size: 1rem;
+	padding: 0.75rem 1.25rem;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+th {
+	vertical-align:central;
+    background-color: #f8f8f8;
+    padding: 5px;
+    border-radius: 10px;
+	border: none;
+}
+
+td {
+	vertical-align: central;
+	border: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+button {
+    font-family: "Work Sans", sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--clr-black);
+    letter-spacing: var(--spacing);
+    font-weight: 700;
+    transition: var(--transition);
+    border: 2px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 25rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover {
+    color: var(--clr-white);
+    background: var(--clr-green-light);
+    filter: brightness(110%);
+    border-radius: 25rem;
+}
+
+button:active {
+    transform: translate(0, 0.5rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.95);
+}
+
+.button {
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	background: transparent;
+	color: var(--clr-black);
+	letter-spacing: var(--spacing);
+	font-weight: 700;
+	transition: var(--transition);
+	border: 2px solid #fff;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 25rem;
+	font-size: 1rem;
+	padding: 0.75rem 1.25rem;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+	.button:hover {
+		color: var(--clr-white);
+		background: var(--clr-green-light);
+		filter: brightness(110%);
+		border-radius: 25rem;
+	}
+
+	.button:active {
+		transform: translate(0, 0.5rem);
+		box-shadow: 0 0.1rem rgba(255, 255, 255, 0.95);
+	}
+
+.popup_background {
+	display: none; /* Make the popup hidden by default */
+	position: fixed; /* Ignores scrolling, allows pixel-based positioning */
+	top: 0;
+	left: 0;
+	/* Move the div to the top left of the screen. We'll make it cover the whole screen soon. */
+	background-color: rgba(0, 0, 0, 0.5); /* Transparent background, 0.5 is opacity (1 = 100%) */
+	width: 100vw;
+	height: 100vh;
+	/* vw = Viewport width, vh = Viewport height */
+	align-items: center;
+	justify-content: center;
+	/* Center all child elements (in this case, a div)
+		if you think we need display: flex,
+		we will be changing the display property with JS later */
+}
+
+.popup {
+	background-color: red; /* White background, pretty self explanatory. */
+	text-align: center; /* Center the text inside the popup. */
+	padding: 20px; /* Make a bit of room around the text. */
+	border-radius: 5px; /* Round the corners of the popup. */
+}
