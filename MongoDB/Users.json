@@ -1,0 +1,245 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "jn6REjofSZGzmHZ90xi2Gw==",
+      "subType": "04"
+    }
+  },
+  "UserName": "Kardelen",
+  "NormalizedUserName": "KARDELEN",
+  "Email": "wildsnail0603@gmail.com",
+  "NormalizedEmail": "WILDSNAIL0603@GMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEAtwtyStcxucZ0q0eA7GVTxtuAsV2h6cWM4f1Gxpn52vEfE7PQt/vS//ab6kIBxaPQ==",
+  "SecurityStamp": "5CSPYRV7CNCK2IOY627LWGGRKIAOOUEF",
+  "ConcurrencyStamp": "ef268dad-e31f-4712-a8c8-6b6a49aadfc4",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1671477481782"
+    }
+  },
+  "Claims": [],
+  "Roles": [
+    {
+      "$binary": {
+        "base64": "xs6xYw5mSRmtK9ojf22Y4A==",
+        "subType": "04"
+      }
+    }
+  ],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "ICHb28AKTeK73W9tHNXW5g==",
+      "subType": "04"
+    }
+  },
+  "UserName": "Elif",
+  "NormalizedUserName": "ELIF",
+  "Email": "kardelen06duran03@gmail.com",
+  "NormalizedEmail": "KARDELEN06DURAN03@GMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEI3euFk4+rsANeON8BT0ZTGGFDISqvaqaAGzgrRO+aPW+CR1F5zB1Kiwgd/w/skn1A==",
+  "SecurityStamp": "OJRKUCA3VUJHQ2SSUHBLTE25OD2YPNHY",
+  "ConcurrencyStamp": "a1c5bd8b-5c42-4ea0-8da9-4f82c7f204af",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1671478334183"
+    }
+  },
+  "Claims": [],
+  "Roles": [
+    {
+      "$binary": {
+        "base64": "XjWMx7OWRCajEOcYZPGVBw==",
+        "subType": "04"
+      }
+    }
+  ],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "hL2LzjfOTYO/ah541FrePA==",
+      "subType": "04"
+    }
+  },
+  "UserName": "Saisei",
+  "NormalizedUserName": "SAISEI",
+  "Email": "saisei123@hotmail.com",
+  "NormalizedEmail": "SAISEI123@HOTMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEKvLVwQi67XpNNb8zgzt/mQ58iZTjLlPcQ1TfHKuW46MDU+S+kIktiS2lffj8mVSpw==",
+  "SecurityStamp": "GFR4LLRNCHIH7CRZ6E7Q35U7KYE3OWHT",
+  "ConcurrencyStamp": "be9818e1-e7e0-4dbf-a37a-e3644b537321",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1671491059505"
+    }
+  },
+  "Claims": [],
+  "Roles": [
+    {
+      "$binary": {
+        "base64": "Mx4yZInfRRuNQYkO8wYNbg==",
+        "subType": "04"
+      }
+    },
+    {
+      "$binary": {
+        "base64": "xs6xYw5mSRmtK9ojf22Y4A==",
+        "subType": "04"
+      }
+    }
+  ],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "lJnn66EIT96+mIREC8oVjg==",
+      "subType": "04"
+    }
+  },
+  "UserName": "mahmut",
+  "NormalizedUserName": "MAHMUT",
+  "Email": "mahmut123@hotmail.com",
+  "NormalizedEmail": "MAHMUT123@HOTMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEBjjZbJs2rKeoZaOu6kKdQdXEFOnlbb9bU3RlEdgnz79zQIjAEX/s6OjS/ZJnPEJoA==",
+  "SecurityStamp": "3B3ZBOUYJGKPAWSUCKY2ZH3YBJ4ZQI2D",
+  "ConcurrencyStamp": "cddf0b1d-111e-40d8-b901-a772f9c261a4",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1671608890159"
+    }
+  },
+  "Claims": [],
+  "Roles": [],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "LGhwi0T+TvSJh8SOoWzu1Q==",
+      "subType": "04"
+    }
+  },
+  "UserName": "ahmet",
+  "NormalizedUserName": "AHMET",
+  "Email": "ahmet1243@gmail.com",
+  "NormalizedEmail": "AHMET1243@GMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEBOY/zIa9ctr3DM+wXTf9fzaP04+1MW+HjhRID78YfQ5Pq9F+MXuPtcvIYe8KBKTfw==",
+  "SecurityStamp": "YWOJUHWLX7IN6D7ZDFFVK4OVVECH665Y",
+  "ConcurrencyStamp": "e2edf9f4-7c17-4ef3-902c-d4d4be41e786",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1672211768798"
+    }
+  },
+  "Claims": [],
+  "Roles": [],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "W/4v4AAtQBmu6RmxvToNIA==",
+      "subType": "04"
+    }
+  },
+  "UserName": "AyseDemir",
+  "NormalizedUserName": "AYSEDEMIR",
+  "Email": "aysedemir123@gmail.com",
+  "NormalizedEmail": "AYSEDEMIR123@GMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEDFqLr/wmE4f6sd6gGSdpxRw7adkP477P/QW+PoIM7z+5qAE8LKgr2PmLmWhl049gA==",
+  "SecurityStamp": "KCQ4WRLI2QJWLF7Z6F6RX52TV6QZAQ5V",
+  "ConcurrencyStamp": "a55ae746-dcd1-44d5-ad06-2091686fe081",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1673440503696"
+    }
+  },
+  "Claims": [],
+  "Roles": [],
+  "Logins": [],
+  "Tokens": []
+},{
+  "_id": {
+    "$binary": {
+      "base64": "5MpeikrvTHabn7PIKO3y/Q==",
+      "subType": "04"
+    }
+  },
+  "UserName": "EmirTuncer123",
+  "NormalizedUserName": "EMIRTUNCER123",
+  "Email": "emirtuncer123@gmail.com",
+  "NormalizedEmail": "EMIRTUNCER123@GMAIL.COM",
+  "EmailConfirmed": false,
+  "PasswordHash": "AQAAAAEAACcQAAAAEM2rHbHayfmCtCAjaehCpgd2PpHSQjoCKsZhmknJHKnUrGJKvjN3wKm3rZREOaIR2Q==",
+  "SecurityStamp": "OXDLJ2GXYY3HYIERSXHVTN42HDIDJNQ5",
+  "ConcurrencyStamp": "f1642f6c-1ee4-408a-a9ec-e47f63dd1597",
+  "PhoneNumber": null,
+  "PhoneNumberConfirmed": false,
+  "TwoFactorEnabled": false,
+  "LockoutEnd": null,
+  "LockoutEnabled": true,
+  "AccessFailedCount": 0,
+  "Version": 1,
+  "CreatedOn": {
+    "$date": {
+      "$numberLong": "1673441531611"
+    }
+  },
+  "Claims": [],
+  "Roles": [],
+  "Logins": [],
+  "Tokens": []
+}]
